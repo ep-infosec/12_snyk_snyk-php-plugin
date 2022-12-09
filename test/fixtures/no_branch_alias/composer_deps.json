@@ -1,0 +1,46 @@
+{
+  "plugin": {
+    "name": "snyk-php-plugin",
+    "targetFile": "composer.lock"
+  },
+  "package": {
+    "name": "test_of/null_branch_alias",
+    "version": "0.0.0",
+    "packageFormatVersion": "composer:0.0.1",
+    "hasDevDependencies": false,
+    "dependencies": {
+      "php": {
+        "name": "php",
+        "version": "7.1.12",
+        "dependencies": {},
+        "labels": { "scope": "prod" }
+      },
+      "josantonius/router": {
+        "name": "josantonius/router",
+        "version": "1.0.9",
+        "dependencies": {
+          "josantonius/url": {
+            "name": "josantonius/url",
+            "version": "1.1.8",
+            "dependencies": {
+              "php": {
+                "name": "php",
+                "version": "7.1.12",
+                "dependencies": {},
+                "labels": { "scope": "prod" }
+              }
+            },
+            "labels": { "scope": "prod" }
+          },
+          "php": {
+            "name": "php",
+            "version": "7.1.12",
+            "dependencies": {},
+            "labels": { "scope": "prod" }
+          }
+        },
+        "labels": { "scope": "prod" }
+      }
+    }
+  }
+}
